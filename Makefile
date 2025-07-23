@@ -1,7 +1,6 @@
 init:
-	mkdir -p frontend
 	docker run --rm -it \
-		-v $(PWD)/frontend:/app \
+		-v $(PWD)/react:/app \
 		-w /app \
 		node:20-alpine \
 		sh -c "npm create vite@latest . -- --template react-ts"
@@ -10,7 +9,7 @@ init:
 	$(MAKE) dev
 
 perms:
-	chmod -R u+rwX frontend
+	chmod -R u+rwX react
 
 install:
 	docker compose run --rm node npm install
