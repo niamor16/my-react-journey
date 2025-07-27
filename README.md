@@ -29,4 +29,3 @@ Juste un projet pour apprendre react, mon voyage initiatique du framework
 | 11   | 📄 Architecture & bonnes pratiques | Répartition composants, conventions, nommage                 |
 | 12   | 🧪 Tests légers                    | Tests unitaires avec Jest/RTL (facultatif mais utile)        |
 | 13   | 🛠 Projet #2 : vitrine             | Mini dashboard, portfolio interactif, app de recherche…      |
-| 14   | 🔁 Préparation entretien           | Résume ton apprentissage, pitch technique, repo propre, vocabulaire pro |
