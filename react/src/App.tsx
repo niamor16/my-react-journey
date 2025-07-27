@@ -1,11 +1,11 @@
 import './App.css'
-import Poll from './components/poll/Poll';
+import Joker from './components/jokeApp/Joker';
 
 function App() {
 
   return (
     <>
-     <Poll />
+     <Joker />
     </>
   );
 }
