@@ -1,11 +1,11 @@
 import './App.css'
-import Game from "./components/TicTacToe/Game";
+import List from './components/todolist/List';
 
 function App() {
 
   return (
     <>
-     <Game />
+     <List />
     </>
   );
 }
