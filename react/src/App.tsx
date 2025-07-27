@@ -1,11 +1,11 @@
 import './App.css'
-import List from './components/todolist/List';
+import Poll from './components/poll/Poll';
 
 function App() {
 
   return (
     <>
-     <List />
+     <Poll />
     </>
   );
 }

@@ -1,0 +1,10 @@
+.choices {
+    display: flex;
+    justify-content: space-between;
+    li {
+        list-style: none;
+        &:hover {
+            background-color: #rgba(blue, 0.3);
+        }
+    }
+}
