@@ -1,11 +1,11 @@
 import './App.css'
-import Joker from './components/jokeApp/Joker';
+import WeatherApp from './components/weatherApp/WeatherApp';
 
 function App() {
 
   return (
     <>
-     <Joker />
+     <WeatherApp />
     </>
   );
 }
