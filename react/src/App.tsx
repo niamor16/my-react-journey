@@ -1,12 +1,13 @@
-import './App.css'
-import Form from './components/form/Form';
+// import './App.css'
+import Gallery from './components/gallery/Gallery';
+import './assets/bootstrap.min.css';
 
 function App() {
 
   return (
-    <>
-     <Form />
-    </>
+    <div className='container d-flex justify-content-center align-items-center'>
+     <Gallery />
+    </div>
   );
 }
 
